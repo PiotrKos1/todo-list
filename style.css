@@ -6,11 +6,6 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	/* background-image: url('./img/backgroundIMG.jpg');
-	*/
-	/* background-color: rgb(177, 171, 171); */
-	/* background-size: cover; */
-	/* background-attachment: fixed; */
 }
 
 .wrapper {
@@ -18,7 +13,7 @@ body {
 }
 
 .header {
-	background-color: rgba(240, 239, 239, 0.863);
+	background-image: linear-gradient(135deg, #170028 0%, #ff516e 100%);
 	text-align: center;
 }
 
@@ -34,14 +29,15 @@ h2 {
 }
 
 #task {
-	width: 60%;
+	width: 40%;
 	height: 40%;
 }
 
 .error {
 	visibility: hidden;
 	padding-top: 10px;
-	color: red;
+	color: black;
+	font-weight: bold;
 }
 
 .add-btn,
@@ -67,13 +63,13 @@ h2 {
 }
 
 .main {
-	background-color: rgba(240, 239, 239, 0.863);
 	text-align: center;
+	background-color: #fff;
 }
 
 h4 {
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding: 10px 0 10px 0;
 }
 
 .info {
@@ -121,7 +117,8 @@ h4 {
 	justify-content: center;
 	align-items: center;
 	height: 150px;
-	background-color: rgba(240, 239, 239, 0.863);
+	/* background-color: rgba(240, 239, 239, 0.863); */
+	background-image: linear-gradient(135deg, #170028 0%, #ff516e 100%);
 }
 
 #editText {
